@@ -28,10 +28,12 @@ androidxUiAutomator = "2.2.0"
 androidxWindowManager = "1.0.0"
 androidxWork = "2.7.1"
 coil = "2.2.2"
+detekt = "1.22.0"
 hilt = "2.44.2"
 hiltExt = "1.0.0"
 jacoco = "0.8.7"
 junit4 = "4.13.2"
+ktlint-core = "11.0.0"
 kotlin = "1.7.21"
 kotlinxCoroutines = "1.6.4"
 kotlinxDatetime = "0.4.0"
@@ -132,3 +134,5 @@ kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", versi
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 protobuf = { id = "com.google.protobuf", version.ref = "protobufPlugin" }
 secrets = { id = "com.google.android.libraries.mapsplatform.secrets-gradle-plugin", version.ref = "secrets" }
+code-ktlint = { id = "org.jlleitschuh.gradle.ktlint", version.ref = "ktlint-core" }
+code-detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }

@@ -16,3 +16,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "BuildLogicSample"
 include(":app")
+include(":core:designsystem")
+include(":core:domain")
+include(":core:data")
