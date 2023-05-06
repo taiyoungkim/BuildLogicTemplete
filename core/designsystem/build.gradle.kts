@@ -6,12 +6,11 @@ plugins {
 
 android {
     defaultConfig {
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
     lint {
         checkDependencies = true
     }
-    namespace = "com.tydev.buildlogicsample.core.designsystem"
+    namespace = "com.tydev.architectureTemplate.core.designsystem"
 }
 
 dependencies {

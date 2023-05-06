@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.tydev.buildlogicsample.core.domain"
+    namespace = "com.tydev.architectureTemplate.core.domain"
 }
 
 dependencies {

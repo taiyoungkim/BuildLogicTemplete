@@ -11,12 +11,10 @@ plugins {
 
 android {
     defaultConfig {
-        applicationId = "com.tydev.buildlogicsample"
+        applicationId = "com.tydev.architectureTemplate"
         versionCode = 1
         versionName = "0.0.1" // X.Y.Z; X = Major, Y = minor, Z = Patch level
 
-        // Custom test runner to set up Hilt dependency graph
-//        testInstrumentationRunner = "com.google.samples.apps.nowinandroid.core.testing.TyTestRunner"
         vectorDrawables {
             useSupportLibrary = true
         }
@@ -59,7 +57,7 @@ android {
             isIncludeAndroidResources = true
         }
     }
-    namespace = "com.tydev.buildlogicsample"
+    namespace = "com.tydev.architectureTemplate"
 }
 
 dependencies {

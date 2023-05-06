@@ -1,4 +1,4 @@
-package com.tydev.buildlogicsample
+package com.tydev.architectureTemplate
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

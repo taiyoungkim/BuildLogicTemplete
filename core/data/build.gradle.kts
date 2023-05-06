@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.tydev.buildlogicsample.core.data"
+    namespace = "com.tydev.architectureTemplate.core.data"
     testOptions {
         unitTests {
             isIncludeAndroidResources = true

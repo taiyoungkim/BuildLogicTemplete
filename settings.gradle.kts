@@ -14,7 +14,7 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "BuildLogicSample"
+rootProject.name = "ArchitectureTemplate"
 include(":app")
 include(":core:designsystem")
 include(":core:domain")

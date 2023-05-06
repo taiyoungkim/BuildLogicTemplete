@@ -1,4 +1,4 @@
-package com.tydev.buildlogicsample
+package com.tydev.architectureTemplate
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
